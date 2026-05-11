@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FAQ Schema Fixer for Elementor Accordion Widget 1.2.0\n"
+"POT-Creation-Date: 2026-05-07 00:00+0000\n"
+"PO-Revision-Date: 2026-05-07 00:00+0000\n"
+"Last-Translator: Armando Caballero\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Codex\n"
+"X-Domain: faq-schema-fixer-for-elementor-accordion-widget\n"
+
+msgid "Select at least one page where the fix should run."
+msgstr "Selecciona al menos una página donde debe ejecutarse la corrección."
+
+msgid "Enter the custom CSS class assigned to the Elementor Nested Accordion widget."
+msgstr "Introduce la clase CSS personalizada asignada al widget Nested Accordion de Elementor."
+
+msgid "FAQ Schema Fixer"
+msgstr "FAQ Schema Fixer"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "FAQ Schema Fixer for Elementor Accordion Widget"
+msgstr "FAQ Schema Fixer for Elementor Accordion Widget"
+
+msgid "Selected pages"
+msgstr "Páginas seleccionadas"
+
+msgid "Accordion CSS class"
+msgstr "Clase CSS del acordeón"
+
+msgid "Not configured"
+msgstr "Sin configurar"
+
+msgid "Processing scope"
+msgstr "Ámbito de procesamiento"
+
+msgid "Only the selected pages and the chosen Elementor accordion class."
+msgstr "Solo las páginas seleccionadas y la clase de acordeón de Elementor elegida."
+
+msgid "Limit the fix to the exact pages and accordion widget you want to target."
+msgstr "Limita la corrección exactamente a las páginas y al widget acordeón que quieres afectar."
+
+msgid "Elementor accordion CSS class"
+msgstr "Clase CSS del acordeón de Elementor"
+
+msgid "Enter one CSS class without a dot. Elementor adds this class to the outer widget wrapper generated on the frontend. Assign it in Advanced > CSS Classes on the Nested Accordion widget."
+msgstr "Introduce una sola clase CSS sin punto. Elementor añade esta clase al contenedor exterior del widget generado en frontend. Asígnala en Advanced > CSS Classes dentro del widget Nested Accordion."
+
+msgid "Pages where the fix should run"
+msgstr "Páginas donde debe ejecutarse la corrección"
+
+msgid "No pages selected yet."
+msgstr "Todavía no hay páginas seleccionadas."
+
+msgid "Search pages by title..."
+msgstr "Buscar páginas por título..."
+
+#, php-format
+msgid "Page #%d"
+msgstr "Página #%d"
+
+msgid "Search pages, tick the ones you want, and they will appear above as selected pills."
+msgstr "Busca páginas, marca las que quieras y aparecerán arriba como pills seleccionadas."
+
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+msgid "How to use this plugin"
+msgstr "Cómo usar este plugin"
+
+msgid "Open the page in Elementor where you are using the Nested Accordion widget as an FAQ block."
+msgstr "Abre en Elementor la página donde estés usando el widget Nested Accordion como bloque de preguntas frecuentes."
+
+msgid "Edit the specific accordion widget and open Advanced > CSS Classes."
+msgstr "Edita el widget acordeón concreto y abre Advanced > CSS Classes."
+
+msgid "Add a unique class, for example faq-schema-fix."
+msgstr "Añade una clase única, por ejemplo faq-schema-fix."
+
+msgid "Come back to this tools page, enter the same class, and select the pages where the fix should run."
+msgstr "Vuelve a esta página de herramientas, introduce la misma clase y selecciona las páginas donde debe ejecutarse la corrección."
+
+msgid "Save the settings and reload the selected page on the frontend."
+msgstr "Guarda los ajustes y recarga en frontend la página seleccionada."
+
+msgid "Inspect the final HTML or use a structured data testing tool to confirm the FAQPage JSON-LD has been rebuilt correctly."
+msgstr "Inspecciona el HTML final o usa una herramienta de validación de datos estructurados para confirmar que el JSON-LD de FAQPage se ha reconstruido correctamente."
+
+msgid "What the plugin changes"
+msgstr "Qué cambia el plugin"
+
+msgid "The plugin reads the visible question and answer text rendered by the targeted Elementor Nested Accordion widget, rebuilds a FAQPage JSON-LD block, and either replaces the existing FAQ schema in that widget or injects a new one if none is present."
+msgstr "El plugin lee el texto visible de preguntas y respuestas que renderiza el widget Nested Accordion de Elementor seleccionado, reconstruye un bloque JSON-LD de FAQPage y sustituye el schema FAQ existente dentro de ese widget o inyecta uno nuevo si no existe."
+
+msgid "Validate the result"
+msgstr "Validar el resultado"
+
+msgid "After saving the settings and reloading the page, validate the final frontend output with these tools:"
+msgstr "Después de guardar los ajustes y recargar la página, valida la salida final del frontend con estas herramientas:"
+
+msgid "Google Rich Results Test"
+msgstr "Google Rich Results Test"
+
+msgid "Schema.org Validator"
+msgstr "Validador de Schema.org"

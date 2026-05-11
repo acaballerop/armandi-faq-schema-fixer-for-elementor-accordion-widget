@@ -1,0 +1,235 @@
+:root {
+	--fsfew-bg: #f8f9ff;
+	--fsfew-surface: #ffffff;
+	--fsfew-surface-soft: #eef4ff;
+	--fsfew-border: #d8dfef;
+	--fsfew-border-strong: #c8d2ea;
+	--fsfew-text: #0b1c30;
+	--fsfew-text-muted: #5b667c;
+	--fsfew-primary: #4d44e3;
+	--fsfew-primary-dark: #3525cd;
+	--fsfew-shadow: 0 1px 3px rgba(11, 28, 48, 0.08), 0 10px 30px rgba(77, 68, 227, 0.04);
+	--fsfew-radius-card: 18px;
+}
+
+.fsfew-wrap {
+	font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	color: var(--fsfew-text);
+	max-width: 1240px;
+	padding-top: 8px;
+	padding-right: 12px;
+}
+
+.fsfew-wrap > h1 {
+	margin-bottom: 18px;
+	font-size: 30px;
+	line-height: 38px;
+	font-weight: 800;
+	letter-spacing: -0.02em;
+	color: var(--fsfew-text);
+}
+
+.fsfew-grid {
+	display: grid;
+	gap: 16px;
+	margin: 0 0 20px;
+}
+
+.fsfew-grid-3 {
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.fsfew-grid-2 {
+	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	align-items: start;
+}
+
+.fsfew-card {
+	background: var(--fsfew-surface);
+	border: 1px solid var(--fsfew-border);
+	padding: 20px;
+	box-shadow: var(--fsfew-shadow);
+	border-radius: var(--fsfew-radius-card);
+}
+
+.fsfew-card > h2 {
+	margin: 0 0 14px;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	color: var(--fsfew-text);
+}
+
+.fsfew-summary-card {
+	background: linear-gradient(180deg, #ffffff 0%, #fcfdff 100%);
+	min-height: 132px;
+}
+
+.fsfew-summary-card h2 {
+	margin-bottom: 10px !important;
+	font-size: 12px !important;
+	line-height: 16px !important;
+	font-weight: 700 !important;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--fsfew-text-muted) !important;
+}
+
+.fsfew-summary-card p {
+	margin: 0;
+	font-size: 18px;
+	line-height: 1.45;
+	font-weight: 600;
+	color: var(--fsfew-text) !important;
+	word-break: break-word;
+}
+
+.fsfew-settings-card .description,
+.fsfew-help-card p,
+.fsfew-help-card li {
+	color: var(--fsfew-text-muted);
+}
+
+.fsfew-page-picker {
+	display: grid;
+	gap: 12px;
+}
+
+.fsfew-page-search {
+	width: 100%;
+	max-width: 100%;
+	min-height: 44px;
+	border-color: var(--fsfew-border-strong) !important;
+	border-radius: 12px !important;
+	padding: 0 14px !important;
+}
+
+.fsfew-selected-pages {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	min-height: 24px;
+}
+
+.fsfew-selected-empty {
+	color: var(--fsfew-text-muted);
+}
+
+.fsfew-page-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	border: 1px solid #cfd7f1;
+	background: linear-gradient(180deg, #f5f7ff 0%, #eef2ff 100%);
+	color: var(--fsfew-text);
+	border-radius: 999px;
+	padding: 7px 12px;
+	font-size: 13px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.fsfew-page-pill:hover,
+.fsfew-page-pill:focus {
+	border-color: #aebceb;
+	background: linear-gradient(180deg, #eef2ff 0%, #e5ebff 100%);
+}
+
+.fsfew-page-list {
+	max-height: 340px;
+	overflow: auto;
+	border: 1px solid var(--fsfew-border-strong);
+	border-radius: 14px;
+	background: #fcfdff;
+	padding: 6px;
+}
+
+.fsfew-page-option {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 11px 12px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.fsfew-page-option:hover {
+	background: #f3f6ff;
+}
+
+.fsfew-page-option input {
+	margin: 0;
+}
+
+.fsfew-page-option-title {
+	flex: 1;
+	color: var(--fsfew-text);
+	font-weight: 600;
+}
+
+.fsfew-page-option-meta {
+	color: var(--fsfew-text-muted);
+	font-size: 12px;
+}
+
+.fsfew-validation-links {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.fsfew-validation-links li {
+	margin-bottom: 8px;
+}
+
+.fsfew-validation-links a {
+	color: var(--fsfew-primary);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.fsfew-validation-links a:hover,
+.fsfew-validation-links a:focus {
+	color: var(--fsfew-primary-dark);
+	text-decoration: underline;
+}
+
+.fsfew-help-steps {
+	margin: 0 0 18px 18px;
+}
+
+.fsfew-help-steps li {
+	margin-bottom: 10px;
+}
+
+.fsfew-help-card h3 {
+	margin: 0 0 10px;
+	font-size: 18px;
+	line-height: 1.3;
+	color: var(--fsfew-text);
+}
+
+.fsfew-settings-card .button-primary {
+	border-color: var(--fsfew-primary) !important;
+	background: linear-gradient(90deg, #5a51f4 0%, var(--fsfew-primary) 100%) !important;
+	color: #fff !important;
+	box-shadow: none !important;
+	border-radius: 10px !important;
+	min-height: 42px !important;
+	padding: 0 18px !important;
+	font-weight: 600 !important;
+}
+
+.fsfew-settings-card .button-primary:hover,
+.fsfew-settings-card .button-primary:focus {
+	border-color: var(--fsfew-primary-dark) !important;
+	background: linear-gradient(90deg, #4f47ea 0%, var(--fsfew-primary-dark) 100%) !important;
+	color: #fff !important;
+}
+
+@media (max-width: 782px) {
+	.fsfew-grid-2,
+	.fsfew-grid-3 {
+		grid-template-columns: 1fr;
+	}
+}
