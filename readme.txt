@@ -2,7 +2,7 @@
 Contributors: acaballerop
 Tags: elementor, faq schema, json-ld, schema.org, seo
 Requires at least: 6.2
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 1.2.0
 License: GPLv2 or later
